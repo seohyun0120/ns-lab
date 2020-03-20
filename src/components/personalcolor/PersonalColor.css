@@ -1,0 +1,72 @@
+.pc-container {
+  overflow: hidden;
+  position: relative;
+  height: 820px;
+  background-color: #fd4571;
+}
+
+.pc-container {
+  overflow: hidden;
+  padding-top: 100px;
+}
+
+.pc-title {
+  position: relative;
+  width: 327px;
+  margin: 30px auto 0;
+}
+
+p {
+  margin-bottom: 0;
+  color: #302c9d;
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.pc-input_area {
+  position: relative;
+  width: 327px;
+  margin: 30px auto 0;
+}
+
+input[type=text]:-ms-clear{
+  display: none;
+}
+
+.pc-search {
+  width: 100%;
+  padding: 13px 45px 12px 24px;
+  border: none;
+  border-radius: 27px;
+  background-color: rgba(255, 181, 197, 0.9);
+  -webkit-box-shadow: 0 10px 40px 0 rgba(216, 40, 81, 0.8);
+  box-shadow: 0 10px 40px 0 rgba(216, 40, 81, 0.8);
+  font-size: 22px;
+  font-weight: 700;
+  color: #302c9d;
+  line-height: 27px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.pc-search-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 13px 19px 10px 10px;
+  color: #302c9d;
+}
+
+h2 {
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 10;
+  width: 500px;
+  height: 251px;
+}
